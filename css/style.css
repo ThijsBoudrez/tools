@@ -1,0 +1,149 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+p {
+    padding: 15px;
+}
+
+body {
+    background-color: #E5EBF2;
+    color: #4F6883;
+}
+
+div.container {
+    max-width: 900px;
+    padding: 50px;
+}
+
+.table {
+    width: 100%;
+    margin: auto;
+    background-color: #FFFFFF;
+    border: 0.5px solid #C3C9D8;
+    border-radius: 5px;
+    border-spacing: 0;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 0.5px solid #E5EBF2;
+}
+
+.table tbody td {
+    border-bottom: 0.5px solid #E5EBF2;
+}
+
+.table td {
+    padding: 15px;
+}
+
+.table tfoot td {
+    font-weight: bold;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.table th.left-align, td.left-align {
+    text-align: left;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: #4F6883;
+    background-color: #FFFFFF;
+    border: 0.5px solid #C3C9D8;
+    border-radius: 5px;
+}
+
+input, select {
+    color: #4F6883;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 0.5px solid #C3C9D8;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px #0066ff;
+}
+
+input[type="radio"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.label {
+    padding: 10px 50px 10px 0px;
+}
+
+.main {
+    margin-left: 160px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4F6883;
+}
+
+    .sidebar .oi {
+        width: 2rem;
+        font-size: 1.1rem;
+        vertical-align: text-top;
+        top: -2px;
+        padding-left: 5px;
+    }
+
+    .sidebar .nav-item {
+        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+    }
+
+        .sidebar .nav-item:first-of-type {
+            padding-top: 1rem;
+        }
+
+        .sidebar .nav-item:last-of-type {
+            padding-bottom: 1rem;
+        }
+
+        .sidebar .nav-item a {
+            color: #C3C9D8;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+            .sidebar .nav-item a.active {
+                color: white;
+                background: linear-gradient(to right, #60C6D0 0%, #60C6D0 4%,#4F6883 4%, #4F6883 100%);
+            }
+
+            .sidebar .nav-item a:hover {
+                background-color: rgba(255,255,255,0.1);
+                color: white;
+            }
