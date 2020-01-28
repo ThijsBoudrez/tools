@@ -7,7 +7,8 @@
     font-size: 14px;
 }
 
-ul li {
+
+.list {
     padding-left: 20px;
     list-style-position: inside;
 }
@@ -98,12 +99,12 @@ input[type="radio"]:focus {
 }
 
 .main {
-    margin-left: 160px;
+    margin-left: 200px;
 }
 
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -125,7 +126,7 @@ input[type="radio"]:focus {
     }
 
         .sidebar .nav-item:first-of-type {
-            padding-top: 1rem;
+            padding-top: 40px;
         }
 
         .sidebar .nav-item:last-of-type {
