@@ -7,9 +7,11 @@
     font-size: 14px;
 }
 
-p {
-    padding: 15px;
+ul li {
+    padding-left: 20px;
+    list-style-position: inside;
 }
+
 
 body {
     background-color: #E5EBF2;
