@@ -13,6 +13,14 @@
     list-style-position: inside;
 }
 
+.validationsummary > ul > li {
+    color: red;
+}
+
+.validation-summary-errors {
+    font-weight: bold !important;
+    color: #ff0000 !important;
+}
 
 body {
     background-color: #E5EBF2;
